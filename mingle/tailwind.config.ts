@@ -8,11 +8,19 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
+        colors: {
+            primary: "#101010",
+            secondary: "#444444",
+            background: "#f9f9f9",
+            rose: "#efc3ca",
+            pink: "d49ba7",
+            whiterose: "#faa943",
+            rosebackground: "#fff0f5",
+        },
+        fontFamily: {
+            primary: "Ginebra",
+            secondary: "Montserrat"
+        },
     },
   },
   plugins: [],
