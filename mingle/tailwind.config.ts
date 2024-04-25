@@ -8,18 +8,20 @@ const config: Config = {
   ],
   theme: {
     extend: {
+        boxShadow: {
+            header: "0 0 30px 10px #d49ba7"
+        },
         colors: {
             primary: "#101010",
             secondary: "#444444",
-            background: "#f9f9f9",
+            background: "#fff1f5",
             rose: "#efc3ca",
-            pink: "d49ba7",
-            whiterose: "#faa943",
-            rosebackground: "#fff0f5",
+            pink: "#d49ba7",
+            rosebackground: "#b28b95",
         },
         fontFamily: {
             primary: "Ginebra",
-            secondary: "Montserrat"
+            secondary: "Raleway"
         },
     },
   },
