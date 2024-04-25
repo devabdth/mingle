@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
 type ButtonProps= {
@@ -28,9 +29,13 @@ export default (props: ButtonProps) => {
             break;
 
         case "shadowIcon":
+            stylingClasses= "bg-transparent";
             break;
     }
     return (
-        <button className={stylingClasses!} onClick={props.onClick}>{props.title}</button>
+        <button className={stylingClasses! + "cursor-pointer"} onClick={props.onClick}>
+            {props.title}
+            {props.icon!== undefined && <FontAwesomeIcon icon={props.icon!} width={32} height={32} size="lg" color={props.variant === "primaryIcon" ? "#d49ba7" : "#fff1f5"} />}
+        </button>
     );
 }
