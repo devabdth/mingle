@@ -1,7 +1,7 @@
  export const Tabs= [
      {
          label: "Home",
-         href: "/home/",
+         href: "/",
      },
      {
          label: "Collections",
@@ -19,4 +19,8 @@
          label: "About Us",
          href: "/about/",
      },
+     {
+         label: "Contact",
+         href: "/contact/",
+    }
  ];
