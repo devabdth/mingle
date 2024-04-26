@@ -1,11 +1,7 @@
-import React from "react";
-import Image from "next/image";
-import { DefaultButton } from "@/components/globals";
+import React, { FC } from "react";
 
-export default () => {
-    return (
-        <section
-         className="w-full h-[90vh] flex flex-col border-2 border-black"
-        ></section>
-    );
+const HeroSection: FC<HTMLElement> = () => {
+    return <section></section>
 }
+
+export default HeroSection;

@@ -9,12 +9,12 @@ const config: Config = {
   theme: {
     extend: {
         boxShadow: {
-            header: "0 0 30px 10px #d49ba7"
+            header: "0 10px 30px 10px rgba(0, 0, 0, 0.15)"
         },
         colors: {
             primary: "#101010",
             secondary: "#444444",
-            background: "#fff1f5",
+            background: "#fff9f8",
             rose: "#efc3ca",
             pink: "#d49ba7",
             rosebackground: "#b28b95",
